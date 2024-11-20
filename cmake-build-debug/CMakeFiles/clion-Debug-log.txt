@@ -1,0 +1,481 @@
+/home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/andrew/GUHypro-tjet -B /home/andrew/GUHypro-tjet/cmake-build-debug
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+--------------------------------------
+Build MATLAB: OFF
+Build Python: OFF
+Build Google Tests: ON
+-- Update or create include directory
+-- Update or create include directory -- update
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (cantera)
+  does not match the name of the calling package (CANTERA).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindCANTERA.cmake:22 (find_package_handle_standard_args)
+  CMakeLists.txt:93 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system serialization
+-- Found LAPACK: /usr/lib/x86_64-linux-gnu/libopenblas.so;-lpthread;-lm;-ldl
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (SUNDIALS)
+  does not match the name of the calling package (Sundials).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindSundials.cmake:142 (find_package_handle_standard_args)
+  CMakeLists.txt:111 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found SUNDIALS: /usr/local/lib/libsundials_cvode.so;/usr/local/lib/libsundials_cvodes.so;/usr/local/lib/libsundials_ida.so;/usr/local/lib/libsundials_idas.so;/usr/local/lib/libsundials_kinsol.so;/usr/local/lib/libsundials_nvecserial.so;/usr/lib/x86_64-linux-gnu/libsundials_nvecopenmp.so;/usr/lib/x86_64-linux-gnu/libsundials_nvecpthreads.so;/usr/lib/x86_64-linux-gnu/libsundials_sunlinsollapackband.so;/usr/lib/x86_64-linux-gnu/libsundials_sunlinsollapackdense.so
+CMake Deprecation Warning at test/HyperionExpanded/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (cantera)
+  does not match the name of the calling package (CANTERA).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindCANTERA.cmake:22 (find_package_handle_standard_args)
+  test/HyperionExpanded/CMakeLists.txt:33 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+here
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system
+CMake Warning (dev) at test/HyperionExpanded/CMakeLists.txt:44 (target_link_libraries):
+  Policy CMP0023 is not set: Plain and keyword target_link_libraries
+  signatures cannot be mixed.  Run "cmake --help-policy CMP0023" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The keyword signature for target_link_libraries has already been used with
+  the target "HyperionExpanded".  All uses of target_link_libraries with a
+  target should be either all-keyword or all-plain.
+
+  The uses of the keyword signature are here:
+
+   * test/HyperionExpanded/CMakeLists.txt:36 (target_link_libraries)
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found LAPACK: /usr/lib/x86_64-linux-gnu/libopenblas.so;-pthread;-lm;-ldl
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (SUNDIALS)
+  does not match the name of the calling package (Sundials).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindSundials.cmake:142 (find_package_handle_standard_args)
+  test/HyperionExpanded/CMakeLists.txt:64 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found SUNDIALS: /usr/local/lib/libsundials_cvode.so;/usr/local/lib/libsundials_cvodes.so;/usr/local/lib/libsundials_ida.so;/usr/local/lib/libsundials_idas.so;/usr/local/lib/libsundials_kinsol.so;/usr/local/lib/libsundials_nvecserial.so;/usr/lib/x86_64-linux-gnu/libsundials_nvecopenmp.so;/usr/lib/x86_64-linux-gnu/libsundials_nvecpthreads.so;/usr/lib/x86_64-linux-gnu/libsundials_sunlinsollapackband.so;/usr/lib/x86_64-linux-gnu/libsundials_sunlinsollapackdense.so;/usr/local/lib/libsundials_cvode.so;/usr/local/lib/libsundials_cvodes.so;/usr/local/lib/libsundials_ida.so;/usr/local/lib/libsundials_idas.so;/usr/local/lib/libsundials_kinsol.so;/usr/local/lib/libsundials_nvecserial.so;/usr/lib/x86_64-linux-gnu/libsundials_nvecopenmp.so;/usr/lib/x86_64-linux-gnu/libsundials_nvecpthreads.so;/usr/lib/x86_64-linux-gnu/libsundials_sunlinsollapackband.so;/usr/lib/x86_64-linux-gnu/libsundials_sunlinsollapackdense.so
+-- Could NOT find Matlab (missing: Matlab_INCLUDE_DIRS Matlab_MEX_LIBRARY Matlab_MEX_EXTENSION Matlab_ROOT_DIR Matlab_MX_LIBRARY) (found version "NOTFOUND")
+OFF
+CMake Deprecation Warning at test/CFD/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (cantera)
+  does not match the name of the calling package (CANTERA).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindCANTERA.cmake:22 (find_package_handle_standard_args)
+  test/CFD/CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+status** CANTERA Include: /usr/include
+status** CANTERA Libraries: 
+status** CANTERA Libraries: /usr/lib/libcantera.a
+here
+status** Boost Include: /usr/include
+status** Boost Libraries: /usr/lib/x86_64-linux-gnu
+status** Boost Libraries: Boost::system
+status** LAPACK Include: 
+status** LAPACK Libraries: 
+status** LAPACK Libraries: /usr/lib/x86_64-linux-gnu/libopenblas.so;-lpthread;-lm;-ldl
+CMake Deprecation Warning at test/TurboJet/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (cantera)
+  does not match the name of the calling package (CANTERA).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindCANTERA.cmake:22 (find_package_handle_standard_args)
+  test/TurboJet/CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+status** CANTERA Include: /usr/include
+status** CANTERA Libraries: 
+status** CANTERA Libraries: /usr/lib/libcantera.a
+here
+status** Boost Include: /usr/include
+status** Boost Libraries: /usr/lib/x86_64-linux-gnu
+status** Boost Libraries: Boost::system
+status** LAPACK Include: 
+status** LAPACK Libraries: 
+status** LAPACK Libraries: /usr/lib/x86_64-linux-gnu/libopenblas.so;-lpthread;-lm;-ldl
+CMake Deprecation Warning at test/HPLPTurboJet/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (cantera)
+  does not match the name of the calling package (CANTERA).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindCANTERA.cmake:22 (find_package_handle_standard_args)
+  test/HPLPTurboJet/CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+status** CANTERA Include: /usr/include
+status** CANTERA Libraries: 
+status** CANTERA Libraries: /usr/lib/libcantera.a
+here
+status** Boost Include: /usr/include
+status** Boost Libraries: /usr/lib/x86_64-linux-gnu
+status** Boost Libraries: Boost::system
+status** LAPACK Include: 
+status** LAPACK Libraries: 
+status** LAPACK Libraries: /usr/lib/x86_64-linux-gnu/libopenblas.so;-lpthread;-lm;-ldl
+CMake Deprecation Warning at test/Chiara/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (cantera)
+  does not match the name of the calling package (CANTERA).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindCANTERA.cmake:22 (find_package_handle_standard_args)
+  test/Chiara/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+here
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (SUNDIALS)
+  does not match the name of the calling package (Sundials).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindSundials.cmake:142 (find_package_handle_standard_args)
+  test/Chiara/CMakeLists.txt:45 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Could NOT find Matlab (missing: Matlab_INCLUDE_DIRS Matlab_MEX_LIBRARY Matlab_MEX_EXTENSION Matlab_ROOT_DIR Matlab_MX_LIBRARY) (found version "NOTFOUND")
+OFF
+CMake Deprecation Warning at test/TrajOpt/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (cantera)
+  does not match the name of the calling package (CANTERA).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindCANTERA.cmake:22 (find_package_handle_standard_args)
+  test/TrajOpt/CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+status** CANTERA Include: /usr/include
+status** CANTERA Libraries: 
+status** CANTERA Libraries: /usr/lib/libcantera.a
+here
+status** Boost Include: /usr/include
+status** Boost Libraries: /usr/lib/x86_64-linux-gnu
+status** Boost Libraries: Boost::system
+status** LAPACK Include: 
+status** LAPACK Libraries: 
+status** LAPACK Libraries: /usr/lib/x86_64-linux-gnu/libopenblas.so;-lpthread;-lm;-ldl
+CMake Deprecation Warning at test/Np3/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (cantera)
+  does not match the name of the calling package (CANTERA).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindCANTERA.cmake:22 (find_package_handle_standard_args)
+  test/Np3/CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+status** CANTERA Include: /usr/include
+status** CANTERA Libraries: 
+status** CANTERA Libraries: /usr/lib/libcantera.a
+here
+status** Boost Include: /usr/include
+status** Boost Libraries: /usr/lib/x86_64-linux-gnu
+status** Boost Libraries: Boost::system
+status** LAPACK Include: 
+status** LAPACK Libraries: 
+status** LAPACK Libraries: /usr/lib/x86_64-linux-gnu/libopenblas.so;-lpthread;-lm;-ldl
+CMake Deprecation Warning at test/pyCycleTjetComparison/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (cantera)
+  does not match the name of the calling package (CANTERA).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindCANTERA.cmake:22 (find_package_handle_standard_args)
+  test/pyCycleTjetComparison/CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+status** CANTERA Include: /usr/include
+status** CANTERA Libraries: 
+status** CANTERA Libraries: /usr/lib/libcantera.a
+here
+status** Boost Include: /usr/include
+status** Boost Libraries: /usr/lib/x86_64-linux-gnu
+status** Boost Libraries: Boost::system
+status** LAPACK Include: 
+status** LAPACK Libraries: 
+status** LAPACK Libraries: /usr/lib/x86_64-linux-gnu/libopenblas.so;-lpthread;-lm;-ldl
+CMake Deprecation Warning at test/pyCycleTjetMatching/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (cantera)
+  does not match the name of the calling package (CANTERA).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindCANTERA.cmake:22 (find_package_handle_standard_args)
+  test/pyCycleTjetMatching/CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+status** CANTERA Include: /usr/include
+status** CANTERA Libraries: 
+status** CANTERA Libraries: /usr/lib/libcantera.a
+here
+status** Boost Include: /usr/include
+status** Boost Libraries: /usr/lib/x86_64-linux-gnu
+status** Boost Libraries: Boost::system
+status** LAPACK Include: 
+status** LAPACK Libraries: 
+status** LAPACK Libraries: /usr/lib/x86_64-linux-gnu/libopenblas.so;-lpthread;-lm;-ldl
+CMake Deprecation Warning at test/Enthalpy/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (cantera)
+  does not match the name of the calling package (CANTERA).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindCANTERA.cmake:22 (find_package_handle_standard_args)
+  test/Enthalpy/CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+status** CANTERA Include: /usr/include
+status** CANTERA Libraries: 
+status** CANTERA Libraries: /usr/lib/libcantera.a
+here
+status** Boost Include: /usr/include
+status** Boost Libraries: /usr/lib/x86_64-linux-gnu
+status** Boost Libraries: Boost::system
+status** LAPACK Include: 
+status** LAPACK Libraries: 
+status** LAPACK Libraries: /usr/lib/x86_64-linux-gnu/libopenblas.so;-lpthread;-lm;-ldl
+CMake Deprecation Warning at test/TurboFan/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (cantera)
+  does not match the name of the calling package (CANTERA).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindCANTERA.cmake:22 (find_package_handle_standard_args)
+  test/TurboFan/CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+status** CANTERA Include: /usr/include
+status** CANTERA Libraries: 
+status** CANTERA Libraries: /usr/lib/libcantera.a
+here
+status** Boost Include: /usr/include
+status** Boost Libraries: /usr/lib/x86_64-linux-gnu
+status** Boost Libraries: Boost::system
+status** LAPACK Include: 
+status** LAPACK Libraries: 
+status** LAPACK Libraries: /usr/lib/x86_64-linux-gnu/libopenblas.so;-lpthread;-lm;-ldl
+CMake Deprecation Warning at test/SCRAMSPACE/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (cantera)
+  does not match the name of the calling package (CANTERA).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindCANTERA.cmake:22 (find_package_handle_standard_args)
+  test/SCRAMSPACE/CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+status** CANTERA Include: /usr/include
+status** CANTERA Libraries: 
+status** CANTERA Libraries: /usr/lib/libcantera.a
+here
+status** Boost Include: /usr/include
+status** Boost Libraries: /usr/lib/x86_64-linux-gnu
+status** Boost Libraries: Boost::system
+status** LAPACK Include: 
+status** LAPACK Libraries: 
+status** LAPACK Libraries: /usr/lib/x86_64-linux-gnu/libopenblas.so;-lpthread;-lm;-ldl
+CMake Deprecation Warning at test/GP/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at test/Rocket_test/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+Test Executable: Rocket_test
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (cantera)
+  does not match the name of the calling package (CANTERA).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindCANTERA.cmake:22 (find_package_handle_standard_args)
+  test/Rocket_test/CMakeLists.txt:12 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (SUNDIALS)
+  does not match the name of the calling package (Sundials).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindSundials.cmake:142 (find_package_handle_standard_args)
+  test/Rocket_test/CMakeLists.txt:41 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+--------------------------------------
+CMake Deprecation Warning at test/Hyperion/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (cantera)
+  does not match the name of the calling package (CANTERA).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindCANTERA.cmake:22 (find_package_handle_standard_args)
+  test/Hyperion/CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+here
+CMake Warning (dev) at /home/andrew/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (SUNDIALS)
+  does not match the name of the calling package (Sundials).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  FindSundials.cmake:142 (find_package_handle_standard_args)
+  test/Hyperion/CMakeLists.txt:54 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Could NOT find Matlab (missing: Matlab_INCLUDE_DIRS Matlab_MEX_LIBRARY Matlab_MEX_EXTENSION Matlab_ROOT_DIR Matlab_MX_LIBRARY) (found version "NOTFOUND")
+OFF
+CMake Deprecation Warning at googletest/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Could NOT find Matlab (missing: Matlab_INCLUDE_DIRS Matlab_MEX_LIBRARY Matlab_MEX_EXTENSION Matlab_ROOT_DIR Matlab_MX_LIBRARY) (found version "NOTFOUND")
+--------------------------------------
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/andrew/GUHypro-tjet/cmake-build-debug
