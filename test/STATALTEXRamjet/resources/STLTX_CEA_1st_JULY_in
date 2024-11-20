@@ -1,0 +1,15 @@
+prob case=JETA9933 ro equilibrium 
+
+ ! fac problem
+prob fac
+ma= 16.472    
+phi 1
+p,bar  0.56581
+reac
+ fuel  Jet-A(g) wt%=100 t,k=1086.1
+ oxid O2 wt%=23.200 t,k=1086.1
+ oxid N2 wt%=76.800 t,k=1086.1
+output    short
+output trace=1e-5
+end
+
