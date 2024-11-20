@@ -1,0 +1,32 @@
+Node 1 "Pre Intake" 18196.7 264.226 0 0.209 0.791 0 986.669 2.50838 0 inf
+Node 2 "Nozzle Exit" 35973.5 1141.55 0 0.101482 0.720655 0.177862 1437.21 4.1156 0 4.1156
+systemModule 20 "Ramjet Mode" 1 2 0 NULL
+nodes {
+	Node 4 "Pinch Point" 382500 670.19 0 0.209 0.791 0 385.663 0.765521 0 inf
+	Node 5 "Primary In" 481544 712.907 0 0.209 0.791 0 238.255 1.04516 0 inf
+	Node 6 "Primary Out" 481544 712.907 0 0.209 0.791 0 238.255 1.04516 0 inf
+	Node 7 "Pre Intake" 18196.7 264.226 0 0.209 0.791 0 986.669 0 0 inf
+	Node 8 "Rocket exit" 33346.5 892.637 0 0 0 1 4328.51 0.279638 0 inf
+	Node 9 "Diffuser End" 363041 727.101 0 0.209 0.791 0 161.064 2.09032 0 inf
+	Node 10 "Injection" 361576 617.212 0.163337 0.174863 0.661801 0 164.075 2.09032 0 inf
+	Node 11 "Chamber End" 200068 1664 0 0.101482 0.720655 0.177862 734.145 2.09032 0 inf
+}
+modules {
+	AdaptedInlet 21 "Inlet" 1 4 0 21
+	nodes {
+		Node 22 "Intake" 18196.7 264.226 0 0.209 0.791 0 986.669 2.50838 0 2.50838
+		Node 23 "Pre Intake" 293663 621.573 0 0.209 0.791 0 495.83 0.720743 0 2.50838
+	}
+	modules {
+		NeutralLink 25 "Adaption flow" 1 22 0 NULL
+		SupersonicInlet 26 "Inlet Duct" 22 4 0 NULL 1
+		chokedConv 27 "Convergent" 22 23 0 NULL 0 CALCULATED
+	}
+	isentropicDuct 12 "Post pinch point" 4 5 0 NULL 0
+	Rocket 13 "Rocket" 7 8 0 NULL 462 6 97.9754
+	NeutralLink 28 "primary" 5 6 0 NULL
+	EffIsenDuct 15 "diffuser" 6 9 0 NULL 0 0.7 1
+	InjectionPhi 16 "secondary" 9 10 0 16 0.467043 1 1 0 0 0 20
+	CombFriction 17 "combustor" 10 11 0 16 0.01 1 1.631 1
+	AdaptedNozzEff 18 "nozzle" 11 2 0 NULL 1 1 1 1
+}
